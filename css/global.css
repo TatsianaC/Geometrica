@@ -1,0 +1,24 @@
+:root{
+    --red-darken-1: #FF0000;
+    --red-darken-2: #E03226;
+
+    --grey-darken-1: #6D6D6D;
+    --grey-darken-2: #6D6D6D;
+    --grey-darken-3: #6D6D6D;
+    --grey-darken-4: #6D6D6D;
+    --grey-darken-4: #6D6D6D;
+
+
+
+
+    --link-color: var(--grey-darken-1);
+    --link-active-color: var(--grey-darken-3);
+
+    --primary-color:var(--red-darken-1);
+    --secondary-color:var(--red-darken-2);
+
+    --section-title-color:var(--grey-darken-3);
+    --product-title-color:var(--grey-darken-4)
+
+
+}
