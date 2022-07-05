@@ -54,6 +54,8 @@
 
 .header__navigation-sub-menu {
     position: absolute;
+    top: 25px;
+    border: var(--grey-darken-3);
     width: 200px;
     border: 1px solid var(--link-active-color);
     opacity: 0;
@@ -70,3 +72,101 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.header__contacts-location{
+    color: var(--link-color);
+    font-family: 'roboto';
+    font-style: 400px;
+    font-style: 14px;
+    line-height: 16px;
+    margin-top: 20px;
+}
+
+.header__contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 auto;
+}
+.header__contacts-instagram{
+    color: var(--grey-darken-10);
+    font-style: 23px;
+    transition: .3s;
+   
+}
+
+.header__contacts-instagram:hover{
+    color: var(--red-darken-1) ;
+}
+
+.header__panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+    
+}
+
+.header__description{
+    font-style: 12px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: var(--grey-darken-2);
+    letter-spacing: .2em;
+    margin-left: 20px;
+
+}
+
+.header__controls-icon{
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header__controls-icon:last-child{
+    margin-right: 0;
+}
+
+.header__search{
+    background-color: gray;
+    border: none;
+    padding: 19px 25px 19px 22px;
+    position: relative;;
+
+}
+
+.header__search-button{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--red-darken-1);
+    border: none;
+    cursor: pointer;
+
+}
+
+.header__catalog-button{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0 34px;
+    height: 70px;
+    min-width: 302px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--red-darken-1);
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 16px;
+  line-height: 19px;
+    color: #fff;
+    transition: background-color .5s;
+
+
+}
+
+.header__catalog-button:hover{
+    background-color: var(--red-darken-1);
+}
+

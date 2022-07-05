@@ -1,0 +1,25 @@
+.phone-number{
+    display: flex;
+    align-items: center;
+    color: var(--grey-darken-7);
+    transition: color .5;
+}
+
+.phone-number:hover{
+color: var(--link-active-color);
+}
+
+
+.phone-number__link{
+color: inherit;
+text-decoration: none;
+font-family: 'Roboto';
+font-weight: 400;
+font-style: 20px;
+line-height: 23px;
+}
+
+.phone-number__icon{
+font-style: 16px;
+margin-right: 10px;
+}
